@@ -1,0 +1,38 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.con:hover {
+  color: white;
+}
+
+.con {
+  padding: 30px;
+  background-color: #339966;
+}
+
+.TITLE1, .TITLE2 {
+  background-color: #383838;
+  padding: 20px;
+  border: none;
+  border-bottom: 3px solid black;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .TITLE2 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .TITLE1 {
+    display: none;
+  }
+}
+body {
+  font-family: arial;
+  background-color: #E0E0E0;
+}
+
+/*# sourceMappingURL=brands.css.map */

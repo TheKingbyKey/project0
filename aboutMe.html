@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/aboutMe.css') }}">
+    <style media="screen">
+      a{
+        color:#B80000 ;
+        font-size:20px;
+        font-weight:bold;
+      }
+      a:hover{
+        color:#480000 ;
+      }
+      a::before{
+        content:"CLICK HERE!";
+        color:#480000 ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gr">
+      <div class="one">
+       @THEROTTENINK-AKSHAY ARORA <br>
+       I AM A POET AND A COMPUTER SCIENCE MAJOR.
+      </div>
+      <div class="two">
+        <h1>Akshay Arora</h1>
+        <ul>
+          <li>Year of Birth:1999</li>
+          <li>Height : 5'6"</li>
+          <li>Birth place:Baraut,U.P</li>
+          <li>Nicknames : bhusa,gopal,akki</li>
+        </ul>
+        <p>Here are links to other pages of my web.</p>
+        <ul>
+          <li><a href="shoblok.html">THE SHOBLOK</a></li>
+          <li><a href="Cars.html">MY TOP 10 CARS</a></li>
+          <li><a href="brands.html">My TOP BRANDS</a></li>
+        </ul>
+      </div>
+      <div class="three">
+        <h1>ABOUT ME...</h1>
+        <p>Hello I am Akshay Arora.So I am a native of Delhi,India.I am currently pursuing Major in Computer Science and side by side,I also write poetries
+        which is my favorite Hobby so far.I am learning Web development for upcoming Internship opportunities at my University.</p>
+        <h1>Personal Life</h1>
+        <p>I was born on 25,May,1999 in Baraut,Uttar Pradesh.Though I was raised in a small town in UttarPradesh, "Sikandrabad".My town is very close to Delhi,
+        The capital of India.So after Completing my 8th standard from st Vivekanand school in sikandrabad,I moved to Delhi for further Education.After completing
+        high school Education which was done very successfully("Bragging...").I droped a year to prepare for my University Education.</p>
+        <p>And at this point,thing for me became complicated,I was in a very Bad situation which i think was clinical Depression.The thing with Depression in India
+        is ,here people dont consider Depression as something to take seriously,Even after suffering a lot i never went out for Help which i regret to This day.
+        But to be on the bright side,after fighting it for about 3 years and finally seeing the light ahead of me,It made me a new Person with a new vision.</p>
+        <a href="{{url_for('index',name = 'world3')}}"></a>
+      </div>
+    </div>
+  </body>
+</html>
